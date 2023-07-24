@@ -7,7 +7,6 @@ import LandingView from "../layouts/LandingView.vue";
 
 import AccountView from "../views/Explore/AccountView.vue";
 import Table from "../views/Explore/Table.vue";
-import TelegramBot from "../views/Explore/TelegramBot.vue";
 
 import Registration from "../views/Landing/Registration.vue";
 import LoginView from "../views/Landing/LoginView.vue";
@@ -54,11 +53,6 @@ const routes = [
         path: "",
         name: "Table",
         component: Table,
-      },
-      {
-        path: "telegram_bot",
-        name: "TelegramBot",
-        component: TelegramBot,
       },
 
       // Account

@@ -56,13 +56,6 @@ const toggleCountLinks = () => {
                 <i class="mr-2 fa-solid fa-paste fa-lg"></i>
                 Table
               </router-link>
-              <router-link
-                to="/explore/telegram_bot"
-                class="my-1 text-[14px] text-white inline-flex relative items-center py-[10px] px-[10px] w-full text-sm font-medium rounded-md border-gray-200 hover:bg-[#2cce7d] hover:text-white"
-              >
-                <i class="mr-2 fa-solid fa-paste fa-lg"></i>
-                Telegram Bot
-              </router-link>
             </div>
           </div>
         </div>
